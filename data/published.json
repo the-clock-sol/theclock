@@ -1,0 +1,21 @@
+{
+  "_category": "PUBLISHED_RESEARCH",
+  "_note": "Figures from other people's published work. Shown with their source. THE CLOCK has not reproduced any of them; reproducedByTheClock stays false until it does.",
+  "ecdsa_fail": {
+    "name": "ECDSA.fail (Eigen Labs)",
+    "url": "https://ecdsa.fail",
+    "paper": "arXiv:2609.09582, ECDSA.Fail: Open Autoresearch for Optimizing",
+    "metric": "peak logical qubit width × average executed Toffoli count, for the secp256k1 point-addition circuit",
+    "baseline": { "qubits": 2715, "toffoli": 3960753, "score": 10753444395, "label": "starting baseline circuit" },
+    "best": { "qubits": 1151, "toffoli": 1299453, "score": 1495670403, "asOf": "2026-07-26", "label": "leading circuit at the paper's cutoff" },
+    "later_reports": [
+      { "asOf": "2026-08-23", "qubits": 1278, "toffoli": 915947, "score": 1170580266, "source": "secondary coverage, not the paper; unverified by THE CLOCK" }
+    ],
+    "reproducedByTheClock": false
+  },
+  "context": [
+    { "date": "2026-04-24", "text": "Project Eleven paid its 1 BTC Q-Day Prize for breaking a 15-bit ECC key on public quantum hardware." },
+    { "date": "2026-07-26", "text": "ECDSA.fail paper cutoff: the public leaderboard had cut the resource score 86% from the baseline." },
+    { "date": "2026-10-08", "text": "Justin Drake (Ethereum Foundation): it is reasonable to brace for ECDSA breaking before Q-day." }
+  ]
+}
