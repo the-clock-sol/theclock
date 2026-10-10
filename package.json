@@ -1,0 +1,17 @@
+{
+  "name": "theclock-engine",
+  "version": "0.3.0",
+  "description": "The attack engine behind theclock.wtf: secp256k1 kangaroo swarm, reversible-circuit verifier, clock model, worker and agent clients.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "worker": "node worker/node-worker.js",
+    "agent": "node agent/run.js",
+    "verify": "node agent/verify.js",
+    "replay": "node agent/replay.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
